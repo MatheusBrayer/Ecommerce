@@ -1,4 +1,4 @@
-````markdown
+
 # E-commerce API
 
 API de e-commerce construída com **Spring Boot**, para gerenciamento de **clientes**, **produtos** e **carrinhos de compras**.
