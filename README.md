@@ -1,7 +1,3 @@
-Perfeito! 😄 Vou montar um **README.md completo** para o seu projeto, já formatado para GitHub, incluindo: descrição do projeto, endpoints, exemplos de requisição/resposta, DTOs e tratamento de erros.
-
-Aqui está um modelo pronto:
-
 ````markdown
 # E-commerce API
 
