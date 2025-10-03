@@ -16,7 +16,7 @@ API de e-commerce construída com **Spring Boot**, para gerenciamento de **clien
 
 ---
 
-## Estrutura do projeto
+### Estrutura do projeto
 - **Entities**: Customer, Product, Cart, CartItem  
 - **DTOs**: Request e Response para cada entidade  
 - **Mappers**: Conversão entre entidades e DTOs  
