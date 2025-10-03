@@ -1,23 +1,34 @@
-HELP.md
+# ---------------------------
+# Arquivos de build e binários
+# ---------------------------
+*.class
+*.log
 target/
+build/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
+# ---------------------------
+# IDEs
+# ---------------------------
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Eclipse / STS ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+.sts4-cache/
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,9 +36,20 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+# ---------------------------
+# Arquivos do sistema
+# ---------------------------
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ---------------------------
+# Outros arquivos
+# ---------------------------
+HELP.md
